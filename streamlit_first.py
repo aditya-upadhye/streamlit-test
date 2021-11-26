@@ -30,7 +30,7 @@ st.write("Text using write function")
 
 # Importing Image
 from PIL import Image
-img = Image.open("python-blog-1.jpg")
+img = Image.open("src/python-blog-1.jpg")
 st.image(img, width=300)
 
 # Importing Video
